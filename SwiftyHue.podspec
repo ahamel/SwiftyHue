@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
 
     base.source_files = 'Sources/Base/**/*.{h,swift}'
     base.dependency 'Alamofire', '4.7.3'
-    base.dependency 'Gloss', '2.0.0'
+    base.dependency 'Gloss', '2.1.0'
   end
 
   s.subspec 'BridgeServices' do |bridgeservices|
